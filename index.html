@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gs Freelance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="asset/style.css ">
+
+<script>
+  const chats = [
+    document.getElementById("chat1"),
+    document.getElementById("chat2"),
+    document.getElementById("chat3"),
+    document.getElementById("chat4"),
+    document.getElementById("chat5")
+  ];
+  let current = 0;
+
+  function showChat() {
+    chats.forEach((chat, index) => {
+      chat.style.display = index === current ? "block" : "none";
+    });
+    current = (current + 1) % chats.length;
+  }
+
+  showChat(); // Tampilkan pertama
+  setInterval(showChat, 3300); // Ganti setiap 6 detik
+</script>
+
+</head>
+<body>
+  <header>
+    <img src="asset/logo.jpg" alt="Logo Brofi Business" class="logo-circle">
+
+    <h1>WELCOME TO <br>@thegirlstore_id
+</h1>
+<section style="text-align: center; margin: 40px 0;">
+  <h2 style="font-size: 20px;">Total Member Aktif:</h2>
+  <div id="counter" style="font-size: 36px; font-weight: bold; color: #000000;">0</div>
+</section>
+
+<script>
+let count = 0;
+let target = 93800; // Jumlah member real/tampilan
+let speed = 2;
+let counter = document.getElementById("counter");
+
+function updateCounter() {
+  if (count < target) {
+    count += Math.floor(Math.random() * 300) + 1;
+    if (count > target) count = target;
+    counter.textContent = count.toLocaleString();
+    setTimeout(updateCounter, speed);
+  }
+}
+updateCounter();
+</script>
+<style>
+.slot-terbatas {
+  position: fixed;
+  top: 25px;
+  left: -60px;
+  background: linear-gradient(45deg, #ff6b6b, #e74c3c);
+  color: white;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 14px;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  border: 2px solid rgb(61, 139, 175);
+  z-index: 9999;
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 }
+      });
+    }, 3300);
+  });
+</script>
+
+  </header>
+  <div class="limited-diagonal">Slot Terbatas!</div>
+<section>
+    <h4>Halo kak! 👋🏻
+Saya adalah owner dari usaha freelance dropship & reseller ini ♡✨
+
+ㅤ╰─⋟ HARAP DIBACA SAMPAI SELESAI‼️⬇️
+Yuk biasakan literasi dulu ya kak 📖🙏🏻</h4><br></br>
+    <div class="grid">
+      <div class="card highlight-card">
+  <p>🙋🏻‍♀️ <strong>Angkat tangan kalau kamu termasuk salah satu ini:</strong></p>
+  <ul>
+    <li>Pelajar/mahasiswa yang mau punya penghasilan sendiri</li>
+    <li>Ibu rumah tangga yang ingin punya usaha sendiri dari rumah</li>
+    <li>Karyawan yang mau tambahan penghasilan</li>
+    <li>Pengangguran yang ingin mulai usaha sendiri</li>
+    <li>Cowok yang nabung buat halalin si dia ❤️</li>
+    <li>Siapa saja yang ingin beli kebutuhan sendiri & bikin bangga orang tua 💪🏻</li>
+  </ul>
+</div>
+  </section>
+  <section>
+    <h2 class="section-title">📍 Syarat Join Usaha Freelance Dropship & Reseller:</h2>
+    <div class="grid">
+      <div class="card requirements-card">
+  <p><strong>Persyaratan Untuk Bergabung:</strong></p>
+  <ul>
+    <li>Usia minimal 16 tahun</li>
+    <li>Punya akun Telegram/Nekogram & akses internet sosial media (WA, IG, FB, dll)</li>
+    <li>Punya rekening sendiri / e-wallet (ShopeePay, DANA, OVO, GoPay, dll)</li>
+    <li>Modal awal Rp100.000,- (sekali bayar, akses file supplier lengkap)</li>
+    <li>Niat serius, mau belajar, rajin promosi, & konsisten</li>
+  </ul>
+</div>
+<section class="online-shop">
+  <h2 class="section-title">🌟 ONLINE SHOP DIBAGI MENJADI 2 MACAM 🌟</h2>
+
+  <div class="shop-card">
+    <h3>1️⃣ RESELLER</h3>
+    <ul>
+      <li>Menjual kembali produk dari supplier ke konsumen.</li>
+      <li>Harus beli & stok barang dulu.</li>
+      <li>Keuntungan dari selisih harga beli & jual.</li>
+    </ul>
+  </div>
+
+  <div class="shop-card">
+    <h3>2️⃣ DROPSHIPPER</h3>
+    <ul>
+      <li>Menjual produk tanpa stok.</li>
+      <li>Promosikan → supplier kirim langsung ke pembeli atas nama kamu.</li>
+      <li>Modal minim, bahkan bisa tanpa modal sama sekali.</li>
+    </ul>
+  </div>
+</section>
+
+
+<section class="file-supplier">
+  <h2 class="section-title">Usaha File Supplier Online</h2>
+
+  <p style="text-align:left;">Usaha ini adalah usaha <strong>“JUAL BELI”</strong> dalam bentuk <strong>"FILE SUPPLIER"</strong> yang bergerak di bidang online.</p>
+
+  <ul style="text-align:left;">
+    <li>✅ Usaha ini 100% halal</li>
+    <li>❌ Aman, bukan MLM / money game</li>
+  </ul>
+
+  <h3 style="text-align:left;">Cara Kerjanya Simpel:</h3>
+  <ul style="text-align:left;">
+    <li>Manfaatkan sosial media kamu (WA, IG, FB, TikTok, dll) untuk promosi & jualan.</li>
+    <li>Bisa sambil sekolah, kuliah, kerja, atau aktivitas lain (fleksibel).</li>
+  </ul>
+
+  <p style="text-align:center; color:#D63384; font-weight:bold;">Kamu bisa dapatkan untung jutaan dengan membeli File Supplier ini</p>
+
+  <h3 style="text-align:left;">Modal Cuma Sekali Bayar:</h3>
+  <ul style="text-align:left;">
+    <li>Normal Rp350.000 ❌</li>
+    <li>Promo Rp100.000 ✅ (hanya dibayar sekali untuk seumur hidup)</li>
+  </ul>
+
+  <h3 style="text-align:left;">👉 PENJELASAN FILE SUPPLIER</h3>
+  <p style="text-align:left;">File ini berisi kontak person/data supplier tangan pertama lengkap: website, alamat toko supplier, dll.</p>
+
+  <h3 style="text-align:left;">👉 MANFAAT FILE SUPPLIER</h3>
+  <ul style="text-align:left;">
+    <li>File ini bisa dijual lagi → keuntungan berkali-kali lipat.</li>
+    <li>Bisa untuk buka online shop sendiri (dropship maupun reseller) dengan barang langsung dari supplier tangan pertama.</li>
+  </ul>
+
+  <h3 style="text-align:left;">💰 Perhitungan Untung</h3>
+  <ul style="text-align:left;">
+    <li>1 hari jual ke 1 orang seharga Rp100.000 → sebulan = Rp3 juta</li>
+    <li>Kalau laku ke 2–5 orang sehari? Hitung sendiri 😉</li>
+    <li>Semua keuntungan langsung masuk ke rekening kamu 💸😍</li>
+  </ul>
+
+  <h3 style="text-align:left;">Takut nggak ada yang minat?</h3>
+  <ul style="text-align:left;">
+    <li>Kalau rajin promosi pasti ada yang beli 😗</li>
+    <li>Dapat foto/video, bahan promosi, testimoni member sukses</li>
+    <li>Tips + trik viral & FYP di TikTok/IG</li>
+    <li>Usaha ini fleksibel, bisa menghasilkan 500rb–1juta per hari 🫢💸</li>
+  </ul>
+
+  <h3 style="text-align:left;">🛍️ FILE SUPPLIER INI BISA BUAT ONLINE SHOP SENDIRI</h3>
+  <ul style="text-align:left;">
+    <li>Membuat toko online sendiri berjualan barang dengan harga ambilan murah → keuntungan lebih banyak</li>
+    <li>Keuntungan 30rb–100rb per barang, misal 10 pcs per hari → Rp9–30 juta/bulan 😲😍</li>
+  </ul>
+
+  <h3 style="text-align:left;">📦 Supplier Lengkap</h3>
+  <ul style="text-align:left;">
+    <li>Produk: baju, tas, sepatu, hijab, seprei, baju anak, aksesoris, skincare, makeup, jam tangan, alat rumah tangga, dll</li>
+    <li>Supplier dari berbagai kota: Jakarta, Solo, Batam, Bandung, Surabaya, Purwokerto, Depok, dll</li>
+    <li>Barang lengkap: dari murah sampai branded, lokal & import</li>
+    <li>Bisa pilih sendiri barang mana yang mau dijual</li>
+  </ul>
+
+  <h3 style="text-align:left;">Takut nggak laku karena followers sedikit atau gaptek?</h3>
+  <ul style="text-align:left;">
+    <li>Tenang, kamu akan dibantu memperbanyak calon pembeli & teman di sosial media 👍</li>
+    <li>Full bimbingan dari nol sampai berhasil 💯❤️</li>
+  </ul>
+
+  <h3 style="text-align:left;">🔑 Intinya:</h3>
+  <ul style="text-align:left;">
+    <li>Kamu dikasih edukasi lengkap → tinggal dipahami & dijalankan</li>
+    <li>Modal sekali bayar, potensi untung jutaan per bulan</li>
+    <li>Fleksibel: dropship, reseller, atau online shop sendiri</li>
+    <li>Semua halal, jelas, dan profesional ✅</li>
+  </ul>
+</section>
+<section class="group-info">
+  <!-- Gambar di atas -->
+  <div class="group-image">
+    <img src="asset/foto1.jpg" alt="Grup Bimbingan" class="img-responsive">
+  </div>
+
+  <h2 class="section-title">Grup yang Akan Kamu Dapatkan</h2>
+
+  <ul>
+    <li>
+      <strong>Grup class bimbingan:</strong> Tempat utama kita berbagi info dan bimbingan supaya usaha kamu jalan lancar & maksimal 💪🏻
+    </li>
+    <li>
+      <strong>Grup lainnya:</strong> Berisi semua bahan & kebutuhan buat jualan: foto, video, caption, materi promosi, tips, trik, strategi, template, dan panduan step-by-step ❗😍
+    </li>
+  </ul>
+
+  <p>📌 Semua ini sudah disiapkan supaya kamu bisa langsung promosi & jualan, bahkan kalau belum punya pengalaman sama sekali.</p>
+  <p>✨ Jadi tinggal ikuti panduannya, dan jalanin usahanya.</p>
+</section>
+<section class="legal-info">
+  <!-- Gambar di atas -->
+  <div class="legal-image">
+    <img src="asset/foto2.jpg" alt="Surat Legalitas" class="img-responsive">
+  </div>
+
+  <h2 class="section-title">Cek Legalitas Usaha</h2>
+
+  <p>Masih ragu? Masih nggak percaya? Masih takut penipuan? 😟</p>
+
+  <p>Tenang, kamu bisa cek surat legalitas resmi usaha ini 🌟👇🏻</p>
+
+  <!-- Link dibedakan dengan style tombol -->
+  <p style="text-align:center;">
+    <a href="https://docs.google.com/document/d/1P-9LXxF2QNFGvqD9_aUi6izz4EjTG1JEOoY2VucoHcE/edit?usp=drivesdk" 
+       target="_blank" 
+       class="legal-link">
+      Lihat Surat Legalitas
+    </a>
+  </p>
+
+  <ul>
+    <li>Sudah ditandatangani langsung oleh owner 👩🏻‍💻</li>
+    <li>100% legal & aman ✅🤗</li>
+  </ul>
+</section>
+<section class="group-bimbingan">
+  <!-- Gambar di atas -->
+  <div class="group-image">
+    <img src="asset/foto3.jpg" alt="Grup Bimbingan" class="img-responsive">
+  </div>
+
+  <h2 class="section-title">Grup Bimbingan</h2>
+
+  <ul>
+    <li>Sudah ada <strong>94 ribu++ member lebih</strong>! 😲😍</li>
+    <li>Di sini kamu bakal dibimbing <strong>step by step</strong> sampai paham cara jalankan usaha freelance dropship & reseller 💯</li>
+    <li>Grup bimbingan adalah langkah pertama setelah join, jadi kamu nggak perlu bingung mau mulai dari mana.</li>
+    <li>Semua materi & tips langsung bisa dicoba, supaya kamu cepat mulai jualan.</li>
+  </ul>
+</section>
+<section class="testimoni-member">
+  <h2 class="section-title">Real Testimoni Member 😍 ⬇️</h2>
+
+  <ul>
+    <li>Bukti nyata dari orang-orang yang sudah join & sukses di usaha freelance dropship & reseller ini</li>
+    <li>Ada yang dapat untung tiap hari, ada yang berhasil buka online shop sendiri</li>
+    <li>Semua testimoni asli & terbukti, jadi kamu nggak perlu ragu lagi untuk mulai 💪🏻🙌🏻</li>
+  </ul>
+
+  <!-- Galeri 4 gambar -->
+  <div class="testimoni-images">
+    <img src="asset/testi (1).jpg" alt="Testimoni 1">
+    <img src="asset/testi (2).jpg" alt="Testimoni 2">
+    <img src="asset/testi (3).jpg" alt="Testimoni 3">
+    <img src="asset/testi (4).jpg" alt="Testimoni 4">
+  </div>
+</section>
+</section>
+  <section>
+    <h2 class="section-title">Kata Motivasi</h2>
+    <p>"Orang yang sukses sangat menyukai prosesnya, bukan hasil instan."</p>
+    <p>"Kegigihan berakar dalam mimpi, maka kita juga tidak pernah menyerah."</p>
+    <p>"Kesuksesan adalah sebuah perjalanan, bukan tujuan akhir."</p>
+  </section><br></br>
+<section class="bukti-tf">
+  <h2 class="section-title">Bukti TF Member yang Sudah Daftar ✨😍⬇️</h2>
+
+  <ul>
+    <li>Sudah lumayan banyak loh!</li>
+    <li>Bukti nyata bahwa member kami benar-benar daftar & mulai usaha ini</li>
+    <li>Jadi kamu bisa lebih yakin & nggak ragu untuk join sekarang 🙌🏻</li>
+  </ul>
+
+  <!-- Galeri 2 gambar -->
+  <div class="bukti-images">
+    <img src="asset/teef (1).jpg" alt="Bukti 1">
+    <img src="asset/teef (2).jpg" alt="Bukti 2">
+  </div>
+</section>
+<section class="keuntungan-join">
+  <h2 class="section-title">Kalau Udah Join, Keuntungannya Apa? 💰</h2>
+  <div class="keuntungan-image">
+    <img src="asset/untung.jpg" alt="Keuntungan Join" class="img-responsive">
+  </div>
+</section>
+<section class="simak-sebelum-tanya">
+  <h2 class="section-title">Sebelum Tanya-Tanya Lagi, Simak Baik-Baik Ya 👀</h2>
+  <div class="simak-image">
+    <img src="asset/tanya-tanya.jpg" alt="Simak Baik-Baik" class="img-responsive">
+  </div>
+</section>
+<section class="mohon-dibaca">
+  <h2 class="section-title">Mohon Dibaca Biar Gak Salah Paham ⚠️</h2>
+  <div class="mohon-image">
+    <img src="asset/salah paham.jpg" alt="Mohon Dibaca" class="img-responsive">
+  </div>
+</section>
+<section class="dropship-reseller">
+  <h2 class="section-title">Bedakan antara Freelance Dropship & Reseller 📦</h2>
+  <div class="dr-image">
+    <img src="asset/perbedaan.jpg" alt="Freelance Dropship & Reseller" class="img-responsive">
+  </div>
+</section>
+<section class="siap-join">
+  <!-- Video di atas -->
+  <div class="video-container">
+    <video controls class="video-responsive">
+      <source src="asset/vidio.MP4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <h2 class="section-title">Tenang Aja, Semua Sudah Disiapin Lengkap!</h2>
+
+  <ul>
+    <li>📚 Full bimbingan sampai bisa jualan ✔️</li>
+    <li>🛍️ Full fasilitas jualan siap pakai ✔️</li>
+    <li>💬 Diajarkan step by step sampai berpenghasilan ✔️</li>
+    <li>🤝 100% halal, jelas & bukan MLM ✔️</li>
+  </ul>
+
+  <p>Kamu gabung, langsung dapat:</p>
+  <ul>
+    <li>Grup bimbingan</li>
+    <li>Grup materi & bahan jualan (foto/video, caption, strategi jualan, dll)</li>
+    <li>Panduan lengkap cara promosi biar cepat laku</li>
+  </ul>
+
+  <p>Pokoknya join usaha ini = udah terima beres! Semua bahan posting udah disiapin → kamu tinggal upload, promosi, dan cuan! 💸🔥😍</p>
+</section>
+<section class="siap-join">
+  <!-- Gambar di atas -->
+  <div class="join-image">
+    <img src="asset/promo.jpg" alt="Siap Join" class="img-responsive">
+  </div>
+
+</section>
+<section class="cara-join">
+  <!-- Gambar di atas -->
+  <div class="join-image">
+    <img src="asset/cara join.jpg" alt="Cara Join" class="img-responsive">
+  </div>
+
+  <h2 class="section-title">Cara Join Freelance Ini</h2>
+
+  <ul>
+    <li>💬 Chat admin melalui WA/DM untuk tanya info & daftar.</li>
+    <li>✍️ Kirim pesan “fix join” ke admin.</li>
+    <li>💰 Lakukan pembayaran sesuai paket promo.</li>
+    <li>📝 Isi form member baru untuk data lengkap.</li>
+    <li>🎓 Ikuti class bimbingan step by step.</li>
+    <li>👥 Masuk ke grup bimbingan & grup materi jualan.</li>
+  </ul>
+</section>
+<section class="cara-kerja">
+  <h2 class="section-title">Masih Bingung Cara Kerja & Sistemnya? 🤔</h2>
+    <div class="kerja-image">
+    <img src="asset/gatau.jpg" alt="Cara Kerja & Sistem" class="img-responsive">
+  </div>
+</section>
+<section class="cek-testimoni">
+  <!-- Gambar di atas -->
+  <div class="testimoni-image">
+    <img src="asset/ig.jpg" alt="Testimoni Member" class="img-responsive">
+  </div>
+
+  <h2 class="section-title">Masih Ragu Join? 😟</h2>
+
+  <p>Buat yang masih ragu atau takut penipuan, kamu bisa cek testimoni member yang sudah join, bukti pembayaran, dan kegiatan lainnya yang sudah kita upload di Instagram 🙌🏻💕</p>
+
+  <p style="text-align:center; margin-top:15px;">
+  <a href="https://www.instagram.com/thegirlstore_id?igsh=dGRsejhqbm1xYTRy&utm_source=qr" target="_blank" class="instagram-btn">
+    📸 Cek Instagram Kami
+  </a>
+</p>
+</section>
+<section class="penjelasan-singkat">
+  <h2 class="section-title">Penjelasan Singkat</h2>
+
+  <p>Berikut info singkat tentang cara kerja, keuntungan member, produk, dan lainnya:</p>
+
+  <!-- Gambar khusus section ini -->
+  <div class="penjelasan-images">
+    <img src="asset/rangkum (1).jpg" alt="Produk 1" class="penjelasan-img">
+    <img src="asset/rangkum (2).jpg" alt="Produk 2" class="penjelasan-img">
+    <img src="asset/rangkum (3).jpg" alt="Produk 3" class="penjelasan-img">
+    <img src="asset/rangkum (4).jpg" alt="Produk 4" class="penjelasan-img">
+    <img src="asset/rangkum (5).jpg" alt="Produk 5" class="penjelasan-img">
+  </div>
+</section>
+<section class="member-bergabung">
+  <h2 class="section-title">80rb++ Member Sudah Bergabung 🤲🏻🥳😍</h2>
+  <div class="media-member">
+    <!-- Video -->
+    <video controls class="member-video">
+      <source src="asset/fasilitas.MOV" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Foto -->
+    <img src="asset/fasilitas.jpg" alt="Member Bergabung" class="member-photo">
+  </div>
+</section>
+<section>
+  <h2 class="section-title">FAQ </h2>
+  <div class="faq">
+    <div class="faq-item">
+      <button class="faq-question">Apa bisnis ini aman dan legal?</button>
+      <div class="faq-answer">
+        <p>Ya, bisnis ini memiliki legalitas yang bisa kamu cek langsung melalui surat resmi kami.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Berapa biaya untuk join?</button>
+      <div class="faq-answer">
+        <p>Harga normal 350K, tapi saat ini sedang promo hanya <strong>100K saja</strong>! Hemat <strong>70%</strong>!</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Apakah ada target penjualan?</button>
+      <div class="faq-answer">
+        <p>Tidak. Tidak ada target, semua dijalankan dengan fleksibel tanpa tekanan.</p>
+      </div>
+    </div>
+    
+
+    <div class="faq-item">
+      <button class="faq-question">Apakah ini termasuk MLM atau money game?</button>
+      <div class="faq-answer">
+        <p>Tidak. Ini bukan MLM, money game, ataupun judi. Bisnis ini 100% halal dan berbasis produk/jasa nyata.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Bagaimana jika saya pemula?</button>
+      <div class="faq-answer">
+        <p>Tenang, kamu akan mendapatkan <strong>full bimbingan</strong> sampai bisa! Mulai dari nol pun bisa sukses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="cara-join-modern">
+  <h2 class="section-title">Cara Join</h2>
+
+  <div class="step-card">
+    <p>🫶🏻 <strong>Dapatkan file supplier lengkap + full bimbingan usaha</strong> dari nol sampai bisa jualan sendiri.</p>
+  </div>
+
+  <div class="step-card">
+    <p>✍️ Pastikan sudah membaca semua penjelasan tentang freelance dropship & reseller.</p>
+  </div>
+
+  <div class="step-card">
+    <p>📲 Chat admin dengan ketik <strong>"Fix Join"</strong> di tombol berikut:</p>
+    <div class="btn-wrapper" style="display: flex; gap: 10px;">
+        <a href="https://t.me/jnzlbhr" target="_blank" class="telegram-btn">➡️ Chat Admin</a>
+        <a href="https://www.instagram.com/thegirlstore_id?igsh=dGRsejhqbm1xYTRy&utm_source=qr" target="_blank" class="telegram-btn">➡️ DM Instagram</a>
+    </div>
+</div>
+
+
+  <div class="step-card">
+    <p>💰 Bayar modal join <strong>Rp100.000,-</strong> sekali bayar seumur hidup untuk masuk grup member 💯</p>
+  </div>
+
+  <div class="step-card">
+    <p>📌 <strong>Catatan:</strong></p>
+    <ul>
+      <li><strong>"Fix Join"</strong> = sudah baca, paham, dan siap bayar.</li>
+      <li>Setelah kirim bukti pembayaran, langsung diproses masuk grup member 💪🏻✨</li>
+    </ul>
+  </div>
+</section>
+<section style="text-align: center; padding: 40px 20px;">  <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 20px;">
+  </p>
+<style>
+/* Tooltip container */
+.telegram-tooltip {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e8edef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.telegram-tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 70px; /* posisi di atas tombol */
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  pointer-events: none; /* agar tooltip tidak mengganggu klik */
+}
+
+/* Tampilkan tooltip saat hover */
+.telegram-tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+
+<!-- Tombol WA Admin 1 -->
+<style>
+/* Tombol Instagram */
+.ig-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: #fff;
+    padding: 14px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover animasi */
+.ig-button:hover {
+    transform: scale(1.1); /* membesar sedikit */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4); /* glow lebih nyata */
+}
+
+/* Tombol Telegram tetap statis */
+.wa-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    border-radius: 50px;
+    background-color: #0088cc;
+    color: #fff;
+    padding: 14px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.wa-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.35);
+}
+</style>
+
+<!-- Tombol Instagram Admin -->
+<a href="https://www.instagram.com/thegirlstore_id?igsh=dGRsejhqbm1xYTRy&utm_source=qr" class="wa-button" style="position: fixed; bottom: 20px; right: 20px; border-radius: 50px; 
+background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); 
+color: #fff; padding: 14px 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); font-size: 1rem; text-decoration: none;">
+  Chat Admin 1
+</a>
+
+<!-- Tombol Telegram Admin -->
+<a href="https://t.me/jnzlbhr" class="wa-button" style="position: fixed; bottom: 80px; right: 20px; border-radius: 50px; 
+background-color: #0088cc; color: #fff; padding: 14px 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); font-size: 1rem; text-decoration: none;">
+  Chat Admin 2
+</a>
+
+
+
+
+
+
+
+</section>
+  <script>
+  let currentIndex = 0;
+  const slides = document.querySelector('.slides');
+  const totalSlides = slides.children.length;
+
+  setInterval(() => {
+    currentIndex = (currentIndex + 1) % totalSlides;
+     slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }, 1100); // ganti gambar setiap 3 detik
+</script>
+ <script>
+  let currentIndex1 = 0;
+  const slides1 = document.querySelector('.slides1');
+  const totalSlides1 = slides1.children.length;
+
+  setInterval(() => {
+    currentIndex1 = (currentIndex + 1) % totalSlides1;
+     slides1.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }, 1100); // ganti gambar setiap 3 detik
+</script>
+<script>
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    item.querySelector('.faq-question').addEventListener('click', () => {
+      item.classList.toggle('active');
+      faqItems.forEach(other => {
+        if (other !== item) {
+          other.classList.remove('active');
+        }
+      });
+    });
+  });
+</script>
+<script>
+  const targetDate = new Date();
+  targetDate.setDate(targetDate.getDate() + 1); // Atur promo berakhir 2 hari dari sekarang
+
+  const countdown = document.getElementById("countdown");
+
+  function updateCountdown() {
+    const now = new Date();
+    const diff = targetDate - now;
+
+    if (diff <= 0) {
+      countdown.textContent = "Promo telah berakhir!";
+      countdown.style.color = "#999";
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hrs = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const mins = Math.floor((diff / (1000 * 60)) % 60);
+    const secs = Math.floor((diff / 1000) % 60);
+
+    countdown.textContent = `${days} hari ${hrs} jam ${mins} menit ${secs} detik`;
+  }
+
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>
+
+</body>
+</html>
